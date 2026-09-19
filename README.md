@@ -14,3 +14,5 @@ A multi-hack for arcade beatmania IIDX
 - Novelty modes to combine notes, re-arrange keysounds & swap scratches
 - Includes an updated version of [2dxAutoRetry](https://github.com/aixxe/2dxAutoRetry) with additional options
 - Ability to increase or decrease each judgement timing window
+
+Credit : Axiee + Bicarus
