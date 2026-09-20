@@ -1,4 +1,4 @@
-![](.github/images/screenshot.png)
+![](.github/images/ScreenShot.png)
 
 # 2dxtra
 [![Build-MSVC](https://github.com/aixxe/2dxtra/actions/workflows/Build-MSVC.yml/badge.svg)](https://github.com/aixxe/2dxtra/actions/workflows/Build-MSVC.yml)
