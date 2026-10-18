@@ -1,0 +1,10 @@
+^C:\USERS\KAHO\APPDATA\LOCAL\TEMP\OPENCODE\2DXTRA_GH\BUILD\CMAKEFILES\6034202524A893AAD308EDE37E52D6B7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/KAHO/AppData/Local/Temp/opencode/2dxtra_gh -BC:/Users/KAHO/AppData/Local/Temp/opencode/2dxtra_gh/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/KAHO/AppData/Local/Temp/opencode/2dxtra_gh/build/2dxtra.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

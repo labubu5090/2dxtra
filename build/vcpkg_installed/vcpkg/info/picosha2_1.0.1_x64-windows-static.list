@@ -1,0 +1,8 @@
+x64-windows-static/
+x64-windows-static/include/
+x64-windows-static/include/picosha2.h
+x64-windows-static/share/
+x64-windows-static/share/picosha2/
+x64-windows-static/share/picosha2/copyright
+x64-windows-static/share/picosha2/vcpkg.spdx.json
+x64-windows-static/share/picosha2/vcpkg_abi_info.txt

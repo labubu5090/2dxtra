@@ -106,7 +106,7 @@ configure_file(src/2dxtra/offsets.h.in macros/offsets.h @ONLY)
 
 if (MSVC)
     target_compile_options(${PROJECT_NAME} PRIVATE /EHa)
-    target_link_options(${PROJECT_NAME} PRIVATE /MAP:2dxtra.map /MAPINFO:EXPORTS /MAPINFO:LINES)
+    target_link_options(${PROJECT_NAME} PRIVATE /MAP:2dxtra.map /MAPINFO:EXPORTS)
 endif()
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE
